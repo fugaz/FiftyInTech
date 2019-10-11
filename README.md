@@ -28,11 +28,19 @@ BONUS: création d’un interface administrateur qui pourra visualiser tous les 
 
 ## Realisation
 
-Le projet a été realisé avec Angular CLI et AWS Amplify en mode RAD.
+Le projet a été realisé avec Angular CLI et AWS Amplify.
 
 Le backend utilise AWS Cognito pour l'authentification, Dynamodb pour la base utilisateurs et S3 pour le stockage des images utilisateur.
 
-Le choix de Amplify permet une architecture serverless ainsi que une approche mobile first.
+L'utilisation de Amplify permet une architecture serverless ainsi que une approche mobile first.
+
+Les choix technologiques ont été faites avec les objectifs suivants:
+
+* Conformité aux consignes
+* Developpement rapide (RAD)
+* Securité
+* Maturité des solutions
+* Minimisation de la dette
 
 ## Informations importantes
 

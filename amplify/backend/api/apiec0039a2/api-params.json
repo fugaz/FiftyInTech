@@ -1,0 +1,35 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "fiftyintech9148c8da",
+            "privacy": {
+                "private": true,
+                "auth": []
+            }
+        }
+    ],
+    "resourceName": "apiec0039a2",
+    "apiName": "apiec0039a2",
+    "functionArns": [
+        {
+            "lambdaFunction": "fiftyintech9148c8da"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "fiftyintech-dev-20191010231742-authRole",
+        "unAuthRoleName": "fiftyintech-dev-20191010231742-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "fiftyintech9148c8da",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

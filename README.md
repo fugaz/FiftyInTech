@@ -1,5 +1,53 @@
 # FiftyInTech
 
+## Le projet
+
+outil de visualisation d’un profil utilisateur avec inscription et authentification, email / mot de passe.
+Votre application sera simple mais ergonomique.
+
+## Consignes
+Le back end doit être en NodeJs et utiliser le micro-framework Express.
+Le front end sera développé dans la technologie de votre choix mais utiliser Angular est un plus.
+L’authentification, l’enregistrement et la récupération des informations se fera via une API
+Le choix de la base de données est libre.
+
+Nous serons particulièrement attentifs à la facilité d’utilisation et à la sécurité.
+
+Le formulaire d’inscription devra comprendre les champs suivants:
+* nom
+* prénom
+* email
+* mot de passe
+* photo de profil
+* compétences professionnelles
+* genre (homme / femme)
+
+Une fois connecté, l’utilisateur doit pouvoir éditer son profil.
+
+BONUS: création d’un interface administrateur qui pourra visualiser tous les profils créés et les modifier.
+
+## Realisation
+
+Le projet a été realisé avec Angular CLI et AWS Amplify en mode RAD.
+
+Le backend utilise AWS Cognito pour l'authentification, Dynamodb pour la base utilisateurs et S3 pour le stockage des images utilisateur.
+
+Le choix de Amplify permet une architecture serverless ainsi que une approche mobile first.
+
+## Informations importantes
+
+* Le username doit etre une email valide.
+* Le mot de passe doit contenir majuscules, minuscules, chiffres et caracteres speciaux et compter au moins 8 caracteres
+* L'URL pour acceder au service est: http://iftynech-20191011015329-hostingbucket-dev.s3-website-eu-west-1.amazonaws.com
+
+## Bugs
+
+Les bugs connus:
+* echec de telechargement de l'image par cause de droits d'acces S3
+* information sur le genre n'est pas affichée
+
+## Usual stuff
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.8.
 
 ## Development server

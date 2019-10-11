@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "fiftyintech",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authfiftyinteche78c87b1",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

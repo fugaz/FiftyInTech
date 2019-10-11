@@ -1,0 +1,19 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "fiftyintech-dev-20191010231742-authRole",
+            "UnauthRoleArn": "arn:aws:iam::595409200798:role/fiftyintech-dev-20191010231742-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::595409200798:role/fiftyintech-dev-20191010231742-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "fiftyintech-dev-20191010231742-deployment",
+            "UnauthRoleName": "fiftyintech-dev-20191010231742-unauthRole",
+            "StackName": "fiftyintech-dev-20191010231742",
+            "StackId": "arn:aws:cloudformation:eu-west-1:595409200798:stack/fiftyintech-dev-20191010231742/65ad65d0-eba3-11e9-9fcd-0a3aaca2533c"
+        },
+        "categories": {
+            "auth": {
+                "fiftyinteche78c87b1": {}
+            }
+        }
+    }
+}
